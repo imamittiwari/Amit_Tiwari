@@ -85,14 +85,14 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "amit.tiwari@email.com",
+      value: "iamit8851@email.com",
       color: "text-primary",
       bgColor: "bg-primary/20",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Mumbai, India",
+      value: "Faridabad, India",
       color: "text-accent",
       bgColor: "bg-accent/20",
     },
@@ -109,7 +109,7 @@ export default function Contact() {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/imamittiwari",
       color: "text-foreground",
     },
     {

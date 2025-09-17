@@ -18,7 +18,7 @@ export default defineConfig({
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
-  base: process.env.NODE_ENV === 'production' ? '/DataShowcase/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/Amit_Tiwari/' : '/',
   server: {
     fs: {
       strict: true,

@@ -44,7 +44,7 @@ This guide will help you deploy your portfolio to GitHub Pages with Formspree fo
 
 4. **Deploy**
    - The GitHub Action will automatically run
-   - Your site will be available at: `https://yourusername.github.io/DataShowcase/`
+   - Your site will be available at: `https://yourusername.github.io/Amit_Tiwari/`
 
 ## 🔧 Configuration Files Created
 
@@ -110,5 +110,10 @@ To use a custom domain with GitHub Pages:
 - Check the Actions tab for deployment logs
 
 **404 errors on GitHub Pages?**
-- Make sure the base path in `vite.config.ts` matches your repo name
+- Make sure the base path in `vite.config.ts` matches your repo name (`/Amit_Tiwari/`)
+- If you rename your repository, update the base path in `vite.config.ts`
 - For custom domains, set base to `'/'`
+
+**Need to change repository name?**
+- Update the base path in `vite.config.ts` line 21: `'/YourNewRepoName/'`
+- Update the URL in this guide to match your new repository name

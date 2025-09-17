@@ -17,6 +17,12 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(import.meta.dirname, "client/index.html"),
+        404: path.resolve(import.meta.dirname, "client/404.html"),
+      },
+    },
   },
   base: process.env.NODE_ENV === 'production' ? '/Amit_Tiwari/' : '/',
   server: {
